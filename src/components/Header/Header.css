@@ -1,0 +1,143 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+._navbar_container{
+  background-color: #000000;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border-bottom: 1px solid rgba(255, 255, 255, .15);
+}
+
+._navbar_content_section{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  height: 64px;
+  margin: 0 120px;
+}
+
+._navbar_logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+}
+
+._navbar_options{
+  display: flex;
+  flex-direction: row;
+}
+
+._navbar_options > div {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  color: #aaaaaa;
+  font-size: 16px;
+}
+
+._navbar_options > div:hover{
+  color: white;
+  cursor: pointer;
+}
+
+._navbar_options .academy {
+  width: 120px;
+  color: white;
+}
+
+._navbar_options .academy .badge {
+    margin-left: 3px;
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    font-weight: 1px;
+    color: white;
+    padding: 1px 6px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 7px;
+    background: rgb(100, 53, 233);
+}
+
+._searchbar_container {
+    display: flex;
+    border-radius: 1000px;
+    border: 2px solid rgba(255, 255, 255, .07);
+    background: rgba(255, 255, 255, .07);
+    margin: 10px;
+    padding: 10px 16px;
+    align-items: center;
+    flex: 1;
+    gap: .5rem;
+    position: relative;
+}
+
+._searchbar_container i {
+    font-size: 16px;
+    color: #fff6;
+    flex-shrink: 0;
+}
+
+._searchbar_container input {
+    flex: 1;
+    background: none;
+    color: #fff;
+    font-family: Outfit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .138px;
+    border: none;
+}
+
+._navbar_button_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+._alpha_feed_icon_styles {
+    width: 42.5px;
+    height: 42.5px;
+    backdrop-filter: blur(12px);
+    background: rgba(60, 32, 140, .2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fa8922;
+    border-radius: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+
+.navbar_button_holder .button {
+    color: #000;
+    white-space: nowrap;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 7px 24px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar_button_holder .button:hover {
+  background-color: #aaaaaa;
+  -webkit-transition: background-color 500ms linear;
+  -ms-transition: background-color 500ms linear;
+  transition: background-color 500ms linear;
+}

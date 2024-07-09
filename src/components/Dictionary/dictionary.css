@@ -1,0 +1,108 @@
+._divider_glow_container{
+  background: rgba(255, 255, 255, 0.1);
+  height: 1px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+
+._alpha_hub_center_heading_etypm_36 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .117px;
+    gap: 8px;
+}
+
+._alpha_hub_center_heading_main_etypm_47 {
+    color: #fff;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+._alpha_hub_center_heading_sub_etypm_52 {
+    color: rgba(255, 255, 255, .4);
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+._alpha_hub_gitbook_container_etypm_58 {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, .2);
+}
+
+._alpha_hub_gitbook_main_image_etypm_68 {
+    object-fit: cover;
+    background: rgba(255, 255, 255, .05);
+    display: block;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+._alpha_hub_gitbook_mask_image_etypm_72 {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    filter: blur(15px);
+    object-fit: cover;
+    object-position: bottom;
+    z-index: 2;
+    transform: scale(3);
+    display: block;
+    vertical-align: middle;
+}
+
+._alpha_hub_bottom_section_etypm_84 {
+    width: 100%;
+    max-width: 1200px;
+    height: 20%;
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    z-index: 3;
+}
+
+._alpha_hub_bottom_left_etypm_99 {
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .117px;
+}
+
+._alpha_hub_bottom_heading_main_etypm_105 {
+    color: #fff9;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
+    font-size: 24px;
+    line-height: 30px;
+}
+
+._alpha_hub_bottom_heading_sub_etypm_112 {
+    color: rgba(255, 255, 255, .4);
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
