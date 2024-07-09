@@ -13,7 +13,6 @@ function TabSwitcher(){
           <div className="_tab_switcher_item_active_fcgmy_41"></div>
         </div>
       </div>
-      <div className="_divider_glow_container"></div>
     </div>
     
   )

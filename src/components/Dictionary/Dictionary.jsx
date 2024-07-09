@@ -4,7 +4,6 @@ import './dictionary.css';
 function Dictionary(){
   return(
     <div className="dictionary_container">
-      <div className="_divider_glow_container"></div>
       <div className="_alpha_hub_section_etypm_1 container">
         <div className="_alpha_hub_center_heading_etypm_36">
           <div className="_alpha_hub_center_heading_main_etypm_47">Crypto Dictionary</div>

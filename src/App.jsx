@@ -13,9 +13,12 @@ function App() {
     <>
       <Header/>
       <Cover/>
+      <div className="_divider_glow_container"></div>
       <Projects/>
+      <div className="_divider_glow_container"></div>
       <Dictionary/>
       <TabSwitcher/>
+      <div className="_divider_glow_container"></div>
       <Footer/>
     </>
   )
