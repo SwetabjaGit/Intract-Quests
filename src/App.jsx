@@ -5,6 +5,7 @@ import Cover from './components/Cover/Cover';
 import Footer from './components/Footer/Footer';
 import Dictionary from './components/Dictionary/Dictionary';
 import TabSwitcher from './components/TabSwitcher/TabSwitcher';
+import Projects from './components/Projects/Projects';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <>
       <Header/>
       <Cover/>
+      <Projects/>
       <Dictionary/>
       <TabSwitcher/>
       <Footer/>
