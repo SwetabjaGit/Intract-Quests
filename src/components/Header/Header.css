@@ -141,3 +141,19 @@
   -ms-transition: background-color 500ms linear;
   transition: background-color 500ms linear;
 }
+
+
+@media (max-width: 1200px) {
+  ._navbar_content_section{
+    margin: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  ._navbar_content_section{
+    margin: 0;
+  }
+  ._navbar_options{
+    display: none;
+  }
+}

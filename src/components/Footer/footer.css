@@ -86,7 +86,6 @@ font-size: 30px;
   color: white;
   letter-spacing: 0;
   text-transform: uppercase;
-  /* font-family: IBM Plex Sans Hebrew, sans-serif; */
   font-size: 15px;
   font-weight: 400;
   line-height: 1.2;
@@ -94,7 +93,6 @@ font-size: 30px;
 
 .footer-link {
   color: #7d7d7d;
-  /* font-family: IBM Plex Sans Hebrew, sans-serif; */
   font-size: 15px;
   line-height: 1.2;
   text-decoration: none;
@@ -125,9 +123,8 @@ font-size: 30px;
 
 .footer-copyright-center {
   text-transform: uppercase;
-  /* font-family: IBM Plex Sans Hebrew, sans-serif; */
   font-size: 15px;
-color: white;
+  color: white;
 }
 
 .white-link {
@@ -170,4 +167,21 @@ color: white;
 .mx-2 {
   margin-right: 0.5rem !important;
   margin-left: 0.5rem !important;
+}
+
+
+
+@media (max-width: 767px) {
+  .footer-wrapper {
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 0;
+	}
+
+  .footer-content {
+		text-align: left;
+		grid-template-columns: 1fr 1fr;
+		margin-top: 40px;
+	}
 }

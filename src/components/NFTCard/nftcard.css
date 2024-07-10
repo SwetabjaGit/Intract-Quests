@@ -164,3 +164,10 @@ svg:not(:root) {
   left: 57%;
   z-index: -1;
 }
+
+
+@media screen and (max-width: 560px) {
+  ._essentials_section_2_conatiner_h19yc_20 {
+      justify-content: center;
+  }
+}

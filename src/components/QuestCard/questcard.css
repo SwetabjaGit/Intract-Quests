@@ -149,3 +149,19 @@
   gap: 4px;
   width: max-content;
 }
+
+@media screen and (max-width: 560px) {
+  ._narrative_container_1uq5j_1 {
+      width: 90%;
+      margin: auto;
+      transform: translate(-5%, 0);
+  }
+}
+
+
+@media screen and (max-width: 390px) {
+  ._narrative_container_1uq5j_1 {
+    scale: 0.9;
+  }
+}
+

@@ -1,5 +1,6 @@
 body{
   background: #000000f5;
+  overflow-x: hidden;
 }
 
 ._divider_glow_container{

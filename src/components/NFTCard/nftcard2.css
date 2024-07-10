@@ -161,3 +161,10 @@ svg:not(:root) {
   display: block;
   vertical-align: middle;
 }
+
+
+@media screen and (max-width: 560px) {
+  ._essentials_section_4_conatiner_e4jua_21 {
+      justify-content: center;
+  }
+}

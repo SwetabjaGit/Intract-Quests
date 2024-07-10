@@ -82,3 +82,39 @@
   z-index: 1;
 }
 
+
+
+@media (max-width: 1200px) {
+  ._cover_wrapper {
+    height: 600px;
+  }
+
+  ._cover_wrapper ._cover_header_image {
+    height: 600px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  ._cover_wrapper {
+    height: 550px;
+  }
+
+  ._cover_wrapper ._cover_header_image {
+    height: 500px;
+  }
+
+  ._header_logo_container ._ia_header_logo{
+    scale: 0.8;
+  }
+
+  ._cover_hero_text p{
+    font-size: 17px;
+  }
+
+  ._cover_hero_text span{
+    font-size: 17px;
+  }
+
+}
+

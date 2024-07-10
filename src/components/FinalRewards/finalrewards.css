@@ -1,31 +1,8 @@
 ._final_reward_container_x6x4j_1 {
   display: flex;
   gap: 24px;
-  width: 500px;
-  margin-top: 95px;
-  margin-bottom: 15px;
-  margin-left: 600px;
-  margin-right: auto;
+  margin: 95px auto 15px;
   position: relative;
-}
-
-@media screen and (max-width: 1200px) {
-  ._final_reward_container_x6x4j_1 {
-    margin-left: 400px;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  ._final_reward_container_x6x4j_1 {
-    margin-left: 200px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  ._final_reward_container_x6x4j_1 {
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 ._reward_won_wrapper_x6x4j_10 {
@@ -270,8 +247,8 @@
 
 ._quest_complete_tick_x6x4j_70 {
   display: flex;
-  width: 16px;
-  height: 16px;
+  width: 10px;
+  height: 10px;
   padding: 4px;
   justify-content: center;
   align-items: center;
@@ -307,7 +284,6 @@
   position: absolute;
   top: 43%;
   right: -75%;
-  z-index: -1;
   transform: translateY(-50%);
   opacity: 50%;
 }
@@ -357,3 +333,42 @@
 ._reward_details_body_x6x4j_138 span {
   color: #fffc;
 }
+
+
+@media screen and (max-width: 560px) {
+  ._final_reward_container_x6x4j_1 {
+      flex-direction:column-reverse;
+      margin-top: 170px;
+      margin-left: 0;
+      justify-content: center;
+      align-items: center
+  }
+
+  ._reward_won_wrapper_x6x4j_10 {
+      width: 100%;
+      position: relative;
+      left: 0
+  }
+
+  ._timer_container_x6x4j_7 {
+      width: 90%
+  }
+
+  ._final_reward_x6x4j_1 {
+      width: 94%
+  }
+
+  ._final_reward_image_x6x4j_28 {
+      width: 100%;
+      height: 100%
+  }
+
+  ._reward_details_container_x6x4j_119 {
+      width: 100%;
+      position: relative;
+      margin-top: 20px;
+      transform: none;
+      right: 0
+  }
+}
+
