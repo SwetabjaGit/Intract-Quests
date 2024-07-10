@@ -22,6 +22,8 @@ function Header(){
               <div>NFTs</div>
               <div>For Projects</div>
           </div>
+
+          <div className="_navbar_empty_space"></div>
           
           <div className="_searchbar_container">
             <i className="bi bi-search"></i>

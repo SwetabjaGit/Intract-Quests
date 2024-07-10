@@ -1,9 +1,8 @@
 ._tab_switcher_wrapper {
   position: sticky;
   position: -webkit-sticky;
-  bottom: 0;
-  z-index: 300;
   bottom: 5%;
+  z-index: 300;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
