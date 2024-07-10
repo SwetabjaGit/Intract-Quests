@@ -13,8 +13,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 1000px;
-  border: 1px solid var(--White-20, rgba(255, 255, 255, .2));
-  background: var(--White-05, rgba(255, 255, 255, .05));
+  border: 1px solid rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .05);
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   color: #fff3;
@@ -98,7 +98,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 1000px;
-  border: 1px solid var(--White-20, rgba(255, 255, 255, .2));
+  border: 1px solid rgba(255, 255, 255, .2);
   background: #131313;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -114,7 +114,7 @@
 }
 
 ._timeline_nft_name_2 {
-  color: var(--White-60, rgba(255, 255, 255, .6));
+  color: rgba(255, 255, 255, .6);
   text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
   font-size: 20px;
   font-weight: 400;
@@ -124,7 +124,7 @@
 }
 
 ._timeline_nft_description_2 {
-  color: var(--White-20, rgba(255, 255, 255, .2));
+  color: rgba(255, 255, 255, .2);
   text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
   font-size: 16px;
   font-weight: 400;
@@ -134,14 +134,14 @@
 
 ._timeline_nft_claim_btn_2 {
   border-radius: 8px;
-  border: 1px solid var(--White-05, rgba(255, 255, 255, .05));
-  background: var(--White-05, rgba(255, 255, 255, .05));
+  border: 1px solid rgba(255, 255, 255, .05);
+  background: rgba(255, 255, 255, .05);
   display: flex;
   width: 160px;
   padding: 10px 0;
   justify-content: center;
   align-items: center;
-  color: var(--White-40, rgba(255, 255, 255, .4));
+  color: rgba(255, 255, 255, .4);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
