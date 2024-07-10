@@ -4,13 +4,13 @@ import './sectionpath1.css';
 function SectionPath1(){
   return (
     <>
-      <div className="_essentials_section_path_1_h19yc_6 _active_path_1a7tp_92">
+      <div className="_timeline_section_path_1 _active_path">
         <svg width="121" height="19" viewBox="0 0 121 19" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M120 7.80708C94.898 1.43658 35.7551 -5.51932 0 17.6211" stroke="#A286F2" strokeWidth="2" strokeLinecap="round" strokeDasharray="8 8"></path>
         </svg>
       </div>
       
-      <div className="_essentials_section_path_2_h19yc_14">
+      <div className="_timeline_section_path_2">
         <svg width="721" height="274" viewBox="0 0 721 274" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clipPath="url(#clip0_1010_21529)">
             <path d="M720.905 171.318C536 182.12 461.57 -30.1358 308 144.12C133.618 341.992 62.806 153.751 0.000135395 39.2605" stroke="white" strokeOpacity="0.4" strokeLinecap="round" strokeDasharray="8 8"></path>

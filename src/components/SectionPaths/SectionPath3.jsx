@@ -4,7 +4,7 @@ import './sectionpath3.css';
 function SectionPath3(){
   return (
     <>
-      <div className="_essentials_section_path_5_e4jua_78">
+      <div className="_timeline_section_path_5">
         <svg width="896" height="484" viewBox="0 0 896 484" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <path d="M18.8408 235.879C18.8408 155.379 118.841 34.8789 275.341 26" stroke="white" strokeOpacity="0.4" strokeLinecap="round" strokeDasharray="8 8"></path>
           <path d="M869.5 322.001C840.959 259.05 741.655 172.229 509.137 292.079C207.841 447.379 8.10772 335.458 18.8406 236.379" stroke="white" strokeOpacity="0.4" strokeLinecap="round" strokeDasharray="8 8"></path>

@@ -9,7 +9,7 @@
   display: block;
 }
 
-._cover_wrapper ._cover_hero_info{
+._cover_wrapper ._cover_info{
   position: absolute;
   top: 40%;
   left: 50%;
@@ -22,21 +22,21 @@
   transition: top .8s ease;
 }
 
-._cover_wrapper ._cover_hero_info ._header_logo_container ._ia_header_logo{
+._cover_wrapper ._cover_info ._header_logo_container ._header_logo{
   z-index: 1;
   mix-blend-mode: screen;
   width: 235px;
   transition: top .5s ease;
 }
 
-._cover_hero_text {
+._cover_text {
   z-index: 1;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-._cover_hero_text p{
+._cover_text p{
   color: #7d7d7d;
   font-size: 20px;
   font-weight: 400;
@@ -45,7 +45,7 @@
   margin-top: 22px;
 }
 
-._cover_hero_text span{
+._cover_text span{
   color: white;
 }
 
@@ -104,15 +104,15 @@
     height: 500px;
   }
 
-  ._header_logo_container ._ia_header_logo{
+  ._header_logo_container ._header_logo{
     scale: 0.8;
   }
 
-  ._cover_hero_text p{
+  ._cover_text p{
     font-size: 17px;
   }
 
-  ._cover_hero_text span{
+  ._cover_text span{
     font-size: 17px;
   }
 

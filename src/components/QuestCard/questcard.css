@@ -1,4 +1,4 @@
-._narrative_container_1uq5j_1 {
+._questcard_container {
   width: 520px;
   background: rgba(255, 255, 255, .05);
   -webkit-backdrop-filter: blur(20px);
@@ -6,7 +6,7 @@
   border-radius: 24px;
 }
 
-._narrative_header_1uq5j_13 {
+._questcard_header {
   padding: 24px;
   display: flex;
   align-items: center;
@@ -18,11 +18,11 @@
   transition: .3s ease;
 }
 
-._collapsed_1uq5j_40 {
+._collapsed {
   transform: rotate(180deg);
 }
 
-._collapse_action_1uq5j_31 {
+._collapse_action {
   position: absolute;
   top: 8px;
   right: 12px;
@@ -32,10 +32,10 @@
   transition: transform .2s ease;
 }
 
-._collapsed_1uq5j_40 {
+._collapsed {
   transform: rotate(180deg);
 }
-._collapse_action_1uq5j_31 {
+._collapse_action {
   position: absolute;
   top: 8px;
   right: 12px;
@@ -45,7 +45,7 @@
   transition: transform 0.2s ease;
 }
 
-._narrative_header_image_1uq5j_43 {
+._questcard_header_image {
   flex: 0 0 160px;
   height: 170px;
   padding: 8px;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-._narrative_header_image_1uq5j_43 img {
+._questcard_header_image img {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -64,7 +64,7 @@
   max-width: 100%;
 }
 
-._quest_count_1uq5j_205 {
+._quest_count {
   color: white;
   width: max-content;
   padding: 11px 24px;
@@ -81,12 +81,12 @@
   transform: translate(-50%);
 }
 
-._narrative_header_info_1uq5j_58 {
+._questcard_header_info {
   display: flex;
   flex-direction: column;
 }
 
-._narrative_header_title_1uq5j_62 {
+._questcard_header_title {
   color: #fff;
   font-size: 24px;
   font-weight: 400;
@@ -94,7 +94,7 @@
   margin-bottom: 8px;
 }
 
-._narrative_header_sub_1uq5j_69 {
+._questcard_header_sub {
   color: rgba(255, 255, 255, 0.4);
   font-size: 16px;
   font-weight: 400;
@@ -105,7 +105,7 @@
   display: -webkit-box;
 }
 
-._custom_hr_1c8vj_1 {
+._hr_divider {
   border: 0;
   height: 1px;
   position: relative;
@@ -117,7 +117,7 @@
   box-sizing: content-box;
 }
 
-._custom_hr_1c8vj_1:before {
+._hr_divider:before {
   content: "";
   display: block;
   width: 100%;
@@ -128,11 +128,11 @@
   left: 0;
 }
 
-._narrative_header_rewards_1uq5j_81 {
+._questcard_header_rewards {
   margin-top: 16px;
 }
 
-._reward_count_1uq5j_169 {
+._reward_count {
   height: 20px;
   padding: 8px 12px;
   justify-content: center;
@@ -151,7 +151,7 @@
 }
 
 @media screen and (max-width: 560px) {
-  ._narrative_container_1uq5j_1 {
+  ._questcard_container {
       width: 90%;
       margin: auto;
       transform: translate(-5%, 0);
@@ -160,7 +160,7 @@
 
 
 @media screen and (max-width: 390px) {
-  ._narrative_container_1uq5j_1 {
+  ._questcard_container {
     scale: 0.9;
   }
 }

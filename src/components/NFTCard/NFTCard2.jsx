@@ -3,26 +3,26 @@ import './nftcard2.css';
 
 function NFTCard2(){
   return (
-    <div className="_essentials_section_4_conatiner_e4jua_21">
+    <div className="_timeline_nft_section_4_conatiner">
       <div>
-        <div className="_essentials_nft_tick_1a7tp_55">
+        <div className="_timeline_nft_tick_icon_2">
           <i className="bi bi-check2"></i>
         </div>
-        <div className="_essentials_section_4_outer_e4jua_26">
-          <div className="_essentials_section_4_e4jua_21">
-            <img src="https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/83bd377d91ff441aa6f7c46a63c88506.png" alt="" className="_essentials_nft_reward_image_1a7tp_47"/>
+        <div className="_timeline_section_4_outer">
+          <div className="_timeline_section_4_image">
+            <img src="https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/83bd377d91ff441aa6f7c46a63c88506.png" alt="" className="_timeline_nft_reward_image"/>
           </div>
-          {/* <div className="_essentials_nft_lock_1a7tp_75">
+          <div className="_timeline_nft_lock_icon_2">
             <img src="https://www.intract.io/assets/lock-icon-2019798d.svg" alt=""/>
-          </div> */}
+          </div>
         </div>
-        <div className="_essentials_nft_name_1a7tp_9">Intract Certified: Earner NFT</div>
-        <div className="_essentials_nft_desc_1a7tp_18">Your proof of <br/>airdrop expertise</div>
-        <button className="_essentials_nft_claim_btn_1a7tp_26" disabled="">
+        <div className="_timeline_nft_name_2">Intract Certified: Earner NFT</div>
+        <div className="_timeline_nft_description_2">Your proof of <br/>airdrop expertise</div>
+        <button className="_timeline_nft_claim_btn_2" disabled="">
           <div>Claim</div>
         </button>
       </div>
-      <div className="_essentials_section_path_5_e4jua_78">
+      <div className="_timeline_section_path_6">
         <svg width="896" height="484" viewBox="0 0 896 484" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
           <path d="M18.8408 235.879C18.8408 155.379 118.841 34.8789 275.341 26" stroke="white" strokeOpacity="0.4" strokeLinecap="round" strokeDasharray="8 8"></path>
           <path d="M869.5 322.001C840.959 259.05 741.655 172.229 509.137 292.079C207.841 447.379 8.10772 335.458 18.8406 236.379" stroke="white" strokeOpacity="0.4" strokeLinecap="round" strokeDasharray="8 8"></path>

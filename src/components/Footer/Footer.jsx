@@ -3,7 +3,7 @@ import './footer.css';
 
 function Footer(){
   return (
-    <div className="bg-black">
+    <div className="black-background">
       <div className="container ">
         <div className="footer-wrapper pt-4">
           <div className="footer_intract_wrapper">

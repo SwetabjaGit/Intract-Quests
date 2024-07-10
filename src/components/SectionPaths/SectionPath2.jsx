@@ -4,7 +4,7 @@ import './sectionpath2.css';
 function Timeline(){
   return (
     <>
-      <div className="_essentials_section_path_4_e4jua_15">
+      <div className="_timeline_section_path_4">
         <svg width="280" height="457" viewBox="0 0 280 457" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clipPath="url(#clip0_1010_21580)">
             <g clipPath="url(#clip1_1010_21580)">

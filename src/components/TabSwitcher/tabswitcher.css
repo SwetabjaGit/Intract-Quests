@@ -1,4 +1,4 @@
-._tab_switcher_wrapper_fcgmy_1 {
+._tab_switcher_wrapper {
   position: sticky;
   position: -webkit-sticky;
   bottom: 0;
@@ -10,7 +10,7 @@
   margin-top: 40px;
 }
 
-._tab_switcher_container_fcgmy_10 {
+._tab_switcher_container {
   border-radius: 1000px;
   border: 1px solid rgba(255, 255, 255, .07);
   background: rgba(255, 255, 255, .05);
@@ -22,11 +22,11 @@
   position: relative;
 }
 
-._active_tab_fcgmy_56 {
+._active_tab {
   color: #fff !important;
 }
 
-._tab_switcher_item_fcgmy_20 {
+._tab_switcher_item {
   display: inline-flex;
   padding: 8px 40px;
   justify-content: center;
@@ -48,7 +48,7 @@
   position: relative;
 }
 
-._tab_switcher_item_active_fcgmy_41 {
+._tab_switcher_item_active {
   padding: 8px 40px;
   border-radius: 1000px;
   background: rgba(255, 255, 255, .15);

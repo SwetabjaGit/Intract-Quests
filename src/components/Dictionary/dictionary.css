@@ -1,8 +1,3 @@
-._divider_glow_container{
-  background: rgba(255, 255, 255, 0.1);
-  height: 1px;
-}
-
 .container {
   max-width: 1200px;
   margin-left: auto;
@@ -10,7 +5,12 @@
   padding: 2em;
 }
 
-._alpha_hub_center_heading_etypm_36 {
+.dictionary_section_container {
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+._dictionary_section_heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,20 +21,20 @@
     gap: 8px;
 }
 
-._alpha_hub_center_heading_main_etypm_47 {
+._dictionary_section_heading_main {
     color: #fff;
     font-size: 24px;
     line-height: 30px;
 }
 
-._alpha_hub_center_heading_sub_etypm_52 {
+._dictionary_section_heading_sub {
     color: rgba(255, 255, 255, .4);
     font-size: 16px;
     line-height: 20px;
     text-align: center;
 }
 
-._alpha_hub_gitbook_container_etypm_58 {
+._dictionary_content {
     width: 100%;
     height: 100%;
     margin-top: 30px;
@@ -45,14 +45,14 @@
     border: 1px solid rgba(255, 255, 255, .2);
 }
 
-._alpha_hub_gitbook_main_image_etypm_68 {
+._dictionary_content_image_top {
     object-fit: cover;
     background: rgba(255, 255, 255, .05);
     display: block;
     max-width: 100%;
 }
 
-._alpha_hub_gitbook_mask_image_etypm_72 {
+._dictionary_content_image_bottom {
     position: absolute;
     bottom: -100px;
     left: 0;
@@ -66,7 +66,7 @@
     display: block;
 }
 
-._alpha_hub_bottom_section_etypm_84 {
+._dictionary_bottom_section {
     width: 100%;
     max-width: 1200px;
     height: 20%;
@@ -82,20 +82,20 @@
     z-index: 3;
 }
 
-._alpha_hub_bottom_left_etypm_99 {
+._dictionary_bottom_left {
     font-style: normal;
     font-weight: 400;
     letter-spacing: .117px;
 }
 
-._alpha_hub_bottom_heading_main_etypm_105 {
+._dictionary_bottom_heading_main {
     color: #fff9;
     text-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
     font-size: 24px;
     line-height: 30px;
 }
 
-._alpha_hub_bottom_heading_sub_etypm_112 {
+._dictionary_bottom_heading_sub {
     color: rgba(255, 255, 255, .4);
     text-shadow: 0px 0px 5px rgba(0, 0, 0, .1);
     font-size: 16px;
@@ -104,21 +104,21 @@
 
 
 @media (max-width: 550px) {
-    ._alpha_hub_gitbook_container_etypm_58 {
+    ._dictionary_content {
         height: 250px;
     }
 
-    ._alpha_hub_gitbook_main_image_etypm_68 {
+    ._dictionary_content_image_top {
         height: 250px;
     }
 }
 
 @media (max-width: 480px) {
-    ._alpha_hub_gitbook_container_etypm_58 {
+    ._dictionary_content {
         height: 180px;
     }
     
-    ._alpha_hub_gitbook_main_image_etypm_68 {
+    ._dictionary_content_image_top {
         height: 180px;
     }
 }

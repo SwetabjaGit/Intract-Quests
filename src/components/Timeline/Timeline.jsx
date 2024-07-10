@@ -9,9 +9,9 @@ import FinalRewards from '../FinalRewards/FinalRewards';
 
 function Timeline(){
   return (
-    <div className="_essentials_section_1a7tp_1 container">
-      <section className="_maxWidthSectionContainer_s2uo3_1">
-        <div className="_essentials_section_1_h19yc_2">
+    <div className="_timeline_wrapper container">
+      <section className="_timeline_section_1">
+        <div className="_timeline_section_1_content">
           <QuestCard
             image="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/2d1ac16ea7c9416d94a74f2ba2fe8d4a.png"
             quests="6 Quests"
@@ -23,9 +23,9 @@ function Timeline(){
           <NFTCard />
         </div>
       </section>
-      <section className="_maxWidthSectionContainer_s2uo3_1">
-        <div className="_essentials_section_3_conatiner_e4jua_2">
-          <div className="_essentials_section_3_e4jua_2">
+      <section className="_timeline_section_1">
+        <div className="_timeline_section_3_conatiner">
+          <div className="_timeline_section_3_content">
             <QuestCard
               image="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/85903745c34d42d684a2dc505768afa7.png"
               quests="4 Quests"

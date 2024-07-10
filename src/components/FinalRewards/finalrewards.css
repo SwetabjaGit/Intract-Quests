@@ -1,11 +1,11 @@
-._final_reward_container_x6x4j_1 {
+._final_reward_container {
   display: flex;
   gap: 24px;
   margin: 95px auto 15px;
   position: relative;
 }
 
-._reward_won_wrapper_x6x4j_10 {
+._reward_won_wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -15,11 +15,11 @@
   bottom: 0;
 }
 
-._timer_container_x6x4j_7 {
+._timer_container_outer {
   width: 320px;
 }
 
-._timer_container_1xur0_1 {
+._timer_container_content {
   position: relative;
   padding: .75rem;
   border-radius: 12px;
@@ -33,7 +33,7 @@
   height: 140px;
 }
 
-._timer_container_1xur0_1>div:nth-child(1) {
+._timer_container_content>div:nth-child(1) {
   position: relative;
   display: flex;
   align-items: center;
@@ -47,7 +47,7 @@
   letter-spacing: .117px;
 }
 
-._timer_container_1xur0_1>div:nth-child(1)>div {
+._timer_container_content>div:nth-child(1)>div {
   display: flex;
   width: 20px;
   height: 20px;
@@ -59,7 +59,7 @@
   background: rgba(250, 137, 34, .1);
 }
 
-._timer_container_1xur0_1>div:nth-child(1)>div>i {
+._timer_container_content>div:nth-child(1)>div>i {
   font-size: 12px;
   color: #fa8922;
 }
@@ -77,7 +77,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-._timer_container_1xur0_1>hr {
+._timer_container_content>hr {
   opacity: 1;
   border: 1px dashed rgba(255, 255, 255, .1);
   width: 100%;
@@ -88,7 +88,7 @@
   height: 0;
 }
 
-._timer_container_1xur0_1>div:last-child {
+._timer_container_content>div:last-child {
   padding: 0;
   display: flex;
   align-items: center;
@@ -102,7 +102,7 @@
   box-shadow: -2px -2px 5px #0006 inset, 2px 2px 5px #0006 inset;
 }
 
-._timer_container_1xur0_1>div:last-child>img {
+._timer_container_content>div:last-child>img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -114,7 +114,7 @@
   border: 0;
 }
 
-._timer_container_1xur0_1>div:last-child>div {
+._timer_container_content>div:last-child>div {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +124,7 @@
   min-width: 40px;
 }
 
-._timer_container_1xur0_1>div:last-child>div>h3 {
+._timer_container_content>div:last-child>div>h3 {
   color: var(--White-60, rgba(255, 255, 255, .6));
   text-align: center;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
@@ -139,7 +139,7 @@
   margin-top: 10px;
 }
 
-._timer_container_1xur0_1>div:last-child>div>p {
+._timer_container_content>div:last-child>div>p {
   color: var(--White-20, rgba(255, 255, 255, .2));
   text-align: center;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, .5);
@@ -154,7 +154,7 @@
   margin-bottom: 10px;
 }
 
-._final_reward_x6x4j_1 {
+._final_reward_content {
   width: 295px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, .1);
@@ -164,7 +164,7 @@
   position: relative;
 }
 
-._final_reward_image_x6x4j_28 {
+._final_reward_image {
   width: 296px;
   height: 296px;
   border-radius: 6px;
@@ -175,7 +175,7 @@
   max-width: 100%;
 }
 
-._final_reward_type_x6x4j_184 {
+._final_reward_type {
   color: var(--White-60, rgba(255, 255, 255, .8));
   text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
   font-size: 16px;
@@ -189,7 +189,7 @@
   background-color: #0009;
 }
 
-._final_reward_info_x6x4j_36 {
+._final_reward_info {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -200,13 +200,13 @@
   margin-bottom: 12px;
 }
 
-._final_reward_info_x6x4j_36>span {
+._final_reward_info>span {
   display: flex;
   align-items: center;
   gap: 4px;
 }
 
-._final_reward_info_x6x4j_36>span>p {
+._final_reward_info>span>p {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -216,14 +216,14 @@
   line-height: 20px;
 }
 
-._custom_hr_1c8vj_1 {
+._final_reward_hr_divider {
   border: 0;
   height: 1px;
   position: relative;
   width: 100%;
 }
 
-._custom_hr_1c8vj_1:before {
+._final_reward_hr_divider:before {
   content: "";
   display: block;
   width: 100%;
@@ -234,8 +234,8 @@
   left: 0;
 }
 
-._final_reward_steps_x6x4j_60 {
-  color: var(--White-40, rgba(255, 255, 255, .4));
+._final_reward_steps {
+  color: rgba(255, 255, 255, .4);
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
@@ -245,7 +245,7 @@
   margin-top: 12px;
 }
 
-._quest_complete_tick_x6x4j_70 {
+._quest_complete_tick_icon {
   display: flex;
   width: 10px;
   height: 10px;
@@ -262,7 +262,7 @@
   font-size: 12px;
 }
 
-._final_reward_claim_button_x6x4j_91 {
+._final_reward_claim_button {
   display: flex;
   width: 100%;
   padding: 10px 0;
@@ -280,7 +280,7 @@
   margin-top: 12px;
 }
 
-._final_reward_info_path_x6x4j_111 {
+._final_reward_info_path {
   position: absolute;
   top: 43%;
   right: -75%;
@@ -288,7 +288,7 @@
   opacity: 50%;
 }
 
-._reward_details_container_x6x4j_119 {
+._reward_details_container {
   width: 312px;
   border-radius: 6px;
   border: .5px solid var(--White-20, rgba(255, 255, 255, .2));
@@ -300,7 +300,7 @@
   transform: translateY(-45%);
 }
 
-._reward_details_header_x6x4j_130 {
+._reward_details_header {
   color: var(--White-40, rgba(255, 255, 255, .4));
   font-size: 14px;
   font-weight: 300;
@@ -313,7 +313,7 @@
   margin-left: 0.25rem;
 }
 
-._reward_details_body_x6x4j_138 {
+._reward_details_body {
   color: var(--White-60, rgba(255, 255, 255, .6));
   font-size: 16px;
   font-weight: 400;
@@ -321,7 +321,7 @@
   padding: 16px;
 }
 
-._reward_details_body_x6x4j_138 p {
+._reward_details_body p {
   color: #7d7d7d;
   margin-top: 7px;
   margin-bottom: 7px;
@@ -330,13 +330,13 @@
   line-height: 1.3;
 }
 
-._reward_details_body_x6x4j_138 span {
+._reward_details_body span {
   color: #fffc;
 }
 
 
 @media screen and (max-width: 560px) {
-  ._final_reward_container_x6x4j_1 {
+  ._final_reward_container {
       flex-direction:column-reverse;
       margin-top: 170px;
       margin-left: 0;
@@ -344,26 +344,26 @@
       align-items: center
   }
 
-  ._reward_won_wrapper_x6x4j_10 {
+  ._reward_won_wrapper {
       width: 100%;
       position: relative;
       left: 0
   }
 
-  ._timer_container_x6x4j_7 {
+  ._timer_container_outer {
       width: 90%
   }
 
-  ._final_reward_x6x4j_1 {
+  ._final_reward_content {
       width: 94%
   }
 
-  ._final_reward_image_x6x4j_28 {
+  ._final_reward_image {
       width: 100%;
       height: 100%
   }
 
-  ._reward_details_container_x6x4j_119 {
+  ._reward_details_container {
       width: 100%;
       position: relative;
       margin-top: 20px;

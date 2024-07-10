@@ -1,12 +1,11 @@
-._essentials_section_2_conatiner_h19yc_20 {
+._timeline_nft_section_2_conatiner {
   display: flex;
   width: 100%;
   justify-content: flex-end;
   position: relative;
-  margin-top: -25px;
 }
 
-._essentials_nft_tick_1a7tp_55 {
+._timeline_nft_tick_icon {
   display: flex;
   width: 25px;
   height: 25px;
@@ -36,13 +35,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-._essentials_section_2_outer_h19yc_27 {
+._timeline_section_2_outer {
   width: 160px;
   position: relative;
   z-index: 10;
 }
 
-._essentials_section_2_h19yc_20 {
+._timeline_section_2_image {
   width: 160px;
   height: 180px;
   border-radius: 24px;
@@ -59,40 +58,17 @@
   overflow: hidden;
 }
 
-._essentials_section_2_h19yc_20:before {
-  background-image: conic-gradient(rgba(255, 255, 255, .25) 0deg, rgba(255, 255, 255, .075) 45deg, rgba(255, 255, 255, .2) 90deg, rgba(255, 255, 255, .4) 135deg, rgba(255, 255, 255, .2) 180deg, rgba(255, 255, 255, .075) 225deg, rgba(255, 255, 255, .25) 270deg, rgba(255, 255, 255, .4) 315deg, rgba(255, 255, 255, .25) 360deg);
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-}
-
-._essentials_nft_reward_image_1a7tp_47 {
+._timeline_nft_reward_image {
   width: 147px;
   height: 165px;
   border-radius: 20px;
   object-fit: cover;
   z-index: 1;
   display: block;
-  vertical-align: middle;
   max-width: 100%;
 }
 
-._essentials_section_2_h19yc_20:after {
-  content: "";
-  width: calc(100% - 1px);
-  height: calc(100% - 1px);
-  position: absolute;
-  background: #131313;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 23.5px;
-}
-
-._essentials_nft_lock_1a7tp_75 {
+._timeline_nft_lock_image {
   display: flex;
   width: 25px;
   height: 25px;
@@ -110,13 +86,12 @@
   transform: translate(34%, 35%);
 }
 
-._essentials_nft_lock_1a7tp_75 img {
+._timeline_nft_lock_image img {
   display: block;
-  vertical-align: middle;
   max-width: 100%;
 }
 
-._essentials_nft_name_1a7tp_9 {
+._timeline_nft_name {
   color: var(--White-60, rgba(255, 255, 255, .6));
   text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
   font-size: 20px;
@@ -126,7 +101,7 @@
   margin-top: 16px;
 }
 
-._essentials_nft_desc_1a7tp_18 {
+._timeline_nft_description {
   color: var(--White-20, rgba(255, 255, 255, .2));
   text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
   font-size: 16px;
@@ -135,10 +110,10 @@
   margin-bottom: 16px;
 }
 
-._essentials_nft_claim_btn_1a7tp_26 {
+._timeline_nft_claim_btn {
   border-radius: 8px;
-  border: 1px solid var(--White-05, rgba(255, 255, 255, .05));
-  background: var(--White-05, rgba(255, 255, 255, .05));
+  border: 1px solid rgba(255, 255, 255, .05);
+  background: rgba(255, 255, 255, .05);
   display: flex;
   width: 160px;
   padding: 10px 0;
@@ -155,10 +130,9 @@
 svg:not(:root) {
   overflow: hidden;
   display: block;
-  vertical-align: middle;
 }
 
-._essentials_section_path_3_h19yc_79 {
+._timeline_section_path_3 {
   position: absolute;
   top: 46%;
   left: 57%;
@@ -167,7 +141,8 @@ svg:not(:root) {
 
 
 @media screen and (max-width: 560px) {
-  ._essentials_section_2_conatiner_h19yc_20 {
+  ._timeline_nft_section_2_conatiner {
       justify-content: center;
+      margin-top: 25px;
   }
 }

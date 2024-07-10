@@ -1,4 +1,4 @@
-._essentials_section_path_4_e4jua_15 {
+._timeline_section_path_4 {
   position: absolute;
   top: 10%;
   left: -54%;
@@ -8,5 +8,4 @@
 svg:not(:root) {
   overflow: hidden;
   display: block;
-  vertical-align: middle;
 }
