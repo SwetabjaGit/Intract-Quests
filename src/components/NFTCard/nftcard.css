@@ -1,0 +1,166 @@
+._essentials_section_2_conatiner_h19yc_20 {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: -25px;
+}
+
+._essentials_nft_tick_1a7tp_55 {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  border: 1px solid var(--White-20, rgba(255, 255, 255, .2));
+  background: var(--White-05, rgba(255, 255, 255, .05));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: #fff3;
+  font-size: 28px;
+  margin-left: 55px;
+}
+
+.bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+  display: inline-block;
+  font-family: bootstrap-icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: -.125em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._essentials_section_2_outer_h19yc_27 {
+  width: 160px;
+  position: relative;
+  z-index: 10;
+}
+
+._essentials_section_2_h19yc_20 {
+  width: 160px;
+  height: 180px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, .2);
+  background: var(--White-05, rgba(255, 255, 255, .05));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  justify-content: flex-end;
+  margin-right: 120px;
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+._essentials_section_2_h19yc_20:before {
+  background-image: conic-gradient(rgba(255, 255, 255, .25) 0deg, rgba(255, 255, 255, .075) 45deg, rgba(255, 255, 255, .2) 90deg, rgba(255, 255, 255, .4) 135deg, rgba(255, 255, 255, .2) 180deg, rgba(255, 255, 255, .075) 225deg, rgba(255, 255, 255, .25) 270deg, rgba(255, 255, 255, .4) 315deg, rgba(255, 255, 255, .25) 360deg);
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+._essentials_nft_reward_image_1a7tp_47 {
+  width: 147px;
+  height: 165px;
+  border-radius: 20px;
+  object-fit: cover;
+  z-index: 1;
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+._essentials_section_2_h19yc_20:after {
+  content: "";
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+  position: absolute;
+  background: #131313;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 23.5px;
+}
+
+._essentials_nft_lock_1a7tp_75 {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1000px;
+  border: 1px solid var(--White-20, rgba(255, 255, 255, .2));
+  background: #131313;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(34%, 35%);
+}
+
+._essentials_nft_lock_1a7tp_75 img {
+  display: block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+._essentials_nft_name_1a7tp_9 {
+  color: var(--White-60, rgba(255, 255, 255, .6));
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+
+._essentials_nft_desc_1a7tp_18 {
+  color: var(--White-20, rgba(255, 255, 255, .2));
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, .4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+
+._essentials_nft_claim_btn_1a7tp_26 {
+  border-radius: 8px;
+  border: 1px solid var(--White-05, rgba(255, 255, 255, .05));
+  background: var(--White-05, rgba(255, 255, 255, .05));
+  display: flex;
+  width: 160px;
+  padding: 10px 0;
+  justify-content: center;
+  align-items: center;
+  color: var(--White-40, rgba(255, 255, 255, .4));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  cursor: not-allowed !important;
+}
+
+
+svg:not(:root) {
+  overflow: hidden;
+  display: block;
+  vertical-align: middle;
+}
+
+._essentials_section_path_3_h19yc_79 {
+  position: absolute;
+  top: 46%;
+  left: 57%;
+  z-index: -1;
+}

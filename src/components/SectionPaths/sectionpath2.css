@@ -1,0 +1,12 @@
+._essentials_section_path_4_e4jua_15 {
+  position: absolute;
+  top: 10%;
+  left: -54%;
+  z-index: -1;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+  display: block;
+  vertical-align: middle;
+}

@@ -1,0 +1,30 @@
+._essentials_section_path_1_h19yc_6 {
+  position: absolute;
+  margin-top: -130px;
+  left: -120px;
+  z-index: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+  display: block;
+  vertical-align: middle;
+}
+
+._active_path_1a7tp_92 svg path {
+  stroke-dasharray: 8;
+  animation: _draw_1a7tp_1 .5s linear infinite;
+}
+
+._essentials_section_path_2_h19yc_14 {
+  position: absolute;
+  margin-top: -50px;
+  left: 219px;
+  z-index: -1;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+  display: block;
+  vertical-align: middle;
+}
