@@ -25,14 +25,16 @@ function Timeline(){
     <div className="_timeline_wrapper container">
       <section className="_timeline_section_1">
         <div className="_timeline_section_1_content">
-          <div className="_questcard_container" onClick={toggleTopCardOpen}>
-            <QuestCard
-              image="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/2d1ac16ea7c9416d94a74f2ba2fe8d4a.png"
-              quests="6 Quests"
-              heading="Basics of Crypto"
-              data="The safest and easiest place to start your crypto journey!"
-              xps="1490 XPs"
-            />
+          <div className="_questcard_container" >
+            <div onClick={toggleTopCardOpen}>
+              <QuestCard
+                image="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/2d1ac16ea7c9416d94a74f2ba2fe8d4a.png"
+                quests="6 Quests"
+                heading="Basics of Crypto"
+                data="The safest and easiest place to start your crypto journey!"
+                xps="1490 XPs"
+              />
+            </div>
             {topCardOpen && <div className="_questcard_body">
               <DropdownCard
                 dropcardImage="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/4eeb6ff08f6640b8bd2edf23864d21c0.png"
@@ -81,14 +83,16 @@ function Timeline(){
       <section className="_timeline_section_1">
         <div className="_timeline_section_3_conatiner">
           <div className="_timeline_section_3_content">
-            <div className="_questcard_container" onClick={toggleBottomCardOpen}>
-              <QuestCard
-                image="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/85903745c34d42d684a2dc505768afa7.png"
-                quests="4 Quests"
-                heading="Introduction to Airdrops"
-                data="Your best bet to make it big in crypto!"
-                xps="1040 XPs"
-              />
+            <div className="_questcard_container">
+              <div onClick={toggleBottomCardOpen}>
+                <QuestCard
+                  image="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/85903745c34d42d684a2dc505768afa7.png"
+                  quests="4 Quests"
+                  heading="Introduction to Airdrops"
+                  data="Your best bet to make it big in crypto!"
+                  xps="1040 XPs"
+                />
+              </div>
               {bottomCardOpen && <div className="_questcard_body">
                 <DropdownCard
                   dropcardImage="https://static.highongrowth.xyz/enterprise/65017d014e5f24613adbfd67/6bb30883bc5042809b9d20926341f8ac.jpg"

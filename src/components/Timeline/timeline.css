@@ -58,6 +58,12 @@
   }
 }
 
+@media screen and (max-width: 560px) {
+  ._timeline_section_3_content {
+      margin-right: 0;
+  }
+}
+
 
 
 
@@ -66,11 +72,18 @@
   justify-content: flex-start;
   position: relative;
   margin-top: 60px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  ._timeline_nft_section_4_conatiner {
+    margin-left: 60px;
+  }
 }
 
 @media screen and (max-width: 560px) {
   ._timeline_nft_section_4_conatiner {
-      justify-content: center;
+    justify-content: center;
   }
 }
 
@@ -101,5 +114,5 @@
   position: absolute;
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
-  width: 100%;
+  /* width: 100%; */
 }
