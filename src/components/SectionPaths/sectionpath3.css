@@ -1,5 +1,12 @@
-._timeline_section_path_5 {
+/* ._timeline_section_path_5 {
   position: absolute;
   top: 46%;
   left: -23%;
+} */
+
+._timeline_section_path_3 {
+  position: absolute;
+  top: 46%;
+  left: 57%;
+  z-index: -1;
 }

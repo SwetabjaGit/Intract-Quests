@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import './timeline.css';
-import QuestCard from "../QuestCard/QuestCard";
+import QuestCard from '../QuestCard/QuestCard';
+import NFTCard from '../NFTCard/NFTCard';
+import FinalRewards from '../FinalRewards/FinalRewards';
+import DropdownCard from '../DropdownCard/DropdownCard';
 import SectionPath1 from '../SectionPaths/SectionPath1';
 import SectionPath2 from '../SectionPaths/SectionPath2';
-import NFTCard from '../NFTCard/NFTCard';
-import NFTCard2 from '../NFTCard/NFTCard2';
-import FinalRewards from '../FinalRewards/FinalRewards';
-import DropdownCard from "../DropdownCard/DropdownCard";
+import SectionPath3 from '../SectionPaths/SectionPath3';
+import SectionPath4 from '../SectionPaths/SectionPath4';
 
 function Timeline(){
   const [topCardOpen, setTopCardOpen] = useState(false);
@@ -66,7 +67,15 @@ function Timeline(){
             </div>}
           </div>
           <SectionPath1 />
-          <NFTCard />
+          <div className="_timeline_nft_section_2_conatiner">
+            <NFTCard
+              image="https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/1b1912563b964393b0478949efad5ed3.png"
+              name="Intract Certified: Learner NFT"
+              desc1="Your crypto black-belt "
+              desc2="certificate"
+            />
+            <SectionPath3 />
+          </div>
         </div>
       </section>
       <section className="_timeline_section_1">
@@ -106,7 +115,15 @@ function Timeline(){
             <SectionPath2 />
           </div>
         </div>
-        <NFTCard2 />
+        <div className="_timeline_nft_section_4_conatiner">
+          <NFTCard
+            image="https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/83bd377d91ff441aa6f7c46a63c88506.png"
+            name="Intract Certified: Earner NFT"
+            desc1="Your proof of "
+            desc2="airdrop expertise"
+          />
+          <SectionPath4 />
+        </div>
       </section>
       <FinalRewards />
     </div>

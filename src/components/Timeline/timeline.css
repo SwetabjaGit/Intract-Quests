@@ -27,6 +27,14 @@
   z-index: 10;
 }
 
+._timeline_nft_section_2_conatiner {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: relative;
+  z-index: -1;
+}
+
 
 
 
@@ -50,6 +58,21 @@
   }
 }
 
+
+
+
+._timeline_nft_section_4_conatiner {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 560px) {
+  ._timeline_nft_section_4_conatiner {
+      justify-content: center;
+  }
+}
 
 
 

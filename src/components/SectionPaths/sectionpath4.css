@@ -1,0 +1,10 @@
+._timeline_section_path_6 {
+  position: absolute;
+  top: 38%;
+  left: -20%;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+  display: block;
+}
