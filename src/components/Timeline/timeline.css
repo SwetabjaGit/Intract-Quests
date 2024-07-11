@@ -35,6 +35,10 @@
 }
 
 @media screen and (max-width: 560px) {
+  ._timeline_section {
+    padding: 0;
+  }
+
   ._timeline_section_2_container {
       justify-content: center;
       margin-top: 25px;

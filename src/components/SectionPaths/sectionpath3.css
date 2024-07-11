@@ -5,3 +5,9 @@
   left: 57%;
   z-index: -1;
 }
+
+@media screen and (max-width: 560px) {
+  ._timeline_section_path_3 {
+    display: none;
+  }
+}

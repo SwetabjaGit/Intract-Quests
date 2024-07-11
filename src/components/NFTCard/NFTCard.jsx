@@ -3,7 +3,7 @@ import './nftcard.css';
 
 function NFTCard(props){
   return (
-    <div>
+    <div className="_nftcard_container">
       <div className="_timeline_nft_tick_icon"><i className="bi bi-check2"></i></div>
       <div className="_timeline_section_2_outer">
         <div className="_timeline_section_2_image">

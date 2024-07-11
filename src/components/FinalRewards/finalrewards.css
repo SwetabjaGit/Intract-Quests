@@ -364,6 +364,10 @@
     height: 100%;
   }
 
+  ._final_reward_info_path {
+    display: none;
+  }
+
   ._reward_details_container {
     width: 100%;
     position: relative;

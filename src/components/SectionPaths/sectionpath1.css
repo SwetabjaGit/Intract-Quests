@@ -26,3 +26,10 @@ svg:not(:root) {
   overflow: hidden;
   display: block;
 }
+
+
+@media screen and (max-width: 560px) {
+  ._timeline_section_path_2 {
+    display: none;
+  }
+}

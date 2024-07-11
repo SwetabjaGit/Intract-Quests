@@ -143,9 +143,9 @@
 
 @media screen and (max-width: 560px) {
   ._questcard_container {
-      width: 90%;
-      margin: auto;
-      transform: translate(-5%, 0);
+    width: 90%;
+    margin: auto;
+    /* transform: translate(-5%, 0); */
   }
 }
 

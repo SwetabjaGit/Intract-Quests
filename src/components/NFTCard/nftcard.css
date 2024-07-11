@@ -127,3 +127,10 @@
   cursor: not-allowed !important;
 }
 
+
+@media screen and (max-width: 560px) {
+  ._nftcard_container {
+    margin-left: 40px;
+  }
+}
+
