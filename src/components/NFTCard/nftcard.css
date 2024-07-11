@@ -1,13 +1,12 @@
-._timeline_nft_section_2_conatiner {
+/* ._timeline_section_2_container {
   display: flex;
   width: 100%;
   justify-content: flex-end;
   position: relative;
   z-index: -1;
-}
+} */
 
 ._timeline_nft_tick_icon {
-  
   display: flex;
   width: 25px;
   height: 25px;
@@ -128,23 +127,3 @@
   cursor: not-allowed !important;
 }
 
-
-svg:not(:root) {
-  overflow: hidden;
-  display: block;
-}
-
-._timeline_section_path_3 {
-  position: absolute;
-  top: 46%;
-  left: 57%;
-  z-index: -1;
-}
-
-
-@media screen and (max-width: 560px) {
-  ._timeline_nft_section_2_conatiner {
-      justify-content: center;
-      margin-top: 25px;
-  }
-}

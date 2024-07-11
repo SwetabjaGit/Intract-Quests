@@ -1,7 +1,8 @@
-._timeline_section_path_6 {
+._timeline_section_path_4 {
   position: absolute;
-  top: 38%;
-  left: -20%;
+  top: 10%;
+  left: -54%;
+  z-index: -1;
 }
 
 svg:not(:root) {

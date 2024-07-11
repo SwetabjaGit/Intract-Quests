@@ -5,9 +5,9 @@ import NFTCard from '../NFTCard/NFTCard';
 import FinalRewards from '../FinalRewards/FinalRewards';
 import DropdownCard from '../DropdownCard/DropdownCard';
 import SectionPath1 from '../SectionPaths/SectionPath1';
-import SectionPath2 from '../SectionPaths/SectionPath2';
 import SectionPath3 from '../SectionPaths/SectionPath3';
 import SectionPath4 from '../SectionPaths/SectionPath4';
+import SectionPath5 from '../SectionPaths/SectionPath5';
 
 function Timeline(){
   const [topCardOpen, setTopCardOpen] = useState(false);
@@ -23,8 +23,8 @@ function Timeline(){
 
   return (
     <div className="_timeline_wrapper container">
-      <section className="_timeline_section_1">
-        <div className="_timeline_section_1_content">
+      <section className="_timeline_section">
+        <div className="_timeline_section_1_container">
           <div className="_questcard_container" >
             <div onClick={toggleTopCardOpen}>
               <QuestCard
@@ -69,19 +69,19 @@ function Timeline(){
             </div>}
           </div>
           <SectionPath1 />
-          <div className="_timeline_nft_section_2_conatiner">
-            <NFTCard
-              image="https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/1b1912563b964393b0478949efad5ed3.png"
-              name="Intract Certified: Learner NFT"
-              desc1="Your crypto black-belt "
-              desc2="certificate"
-            />
-            <SectionPath3 />
-          </div>
+          <SectionPath3 />          
+        </div>
+        <div className="_timeline_section_2_container">
+          <NFTCard
+            image="https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/1b1912563b964393b0478949efad5ed3.png"
+            name="Intract Certified: Learner NFT"
+            desc1="Your crypto black-belt "
+            desc2="certificate"
+          />
         </div>
       </section>
-      <section className="_timeline_section_1">
-        <div className="_timeline_section_3_conatiner">
+      <section className="_timeline_section">
+        <div className="_timeline_section_3_container">
           <div className="_timeline_section_3_content">
             <div className="_questcard_container">
               <div onClick={toggleBottomCardOpen}>
@@ -116,17 +116,17 @@ function Timeline(){
                 />
               </div>}
             </div>
-            <SectionPath2 />
+            <SectionPath4 />
           </div>
         </div>
-        <div className="_timeline_nft_section_4_conatiner">
+        <div className="_timeline_section_4_container">
           <NFTCard
             image="https://static.highongrowth.xyz/erc1155-images/65017d014e5f24613adbfd67/83bd377d91ff441aa6f7c46a63c88506.png"
             name="Intract Certified: Earner NFT"
             desc1="Your proof of "
             desc2="airdrop expertise"
           />
-          <SectionPath4 />
+          <SectionPath5 />
         </div>
       </section>
       <FinalRewards />

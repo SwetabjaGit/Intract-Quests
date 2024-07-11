@@ -1,10 +1,10 @@
-._questcard_container {
+/* ._questcard_container {
   width: 520px;
   background: rgba(255, 255, 255, .05);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   border-radius: 24px;
-}
+} */
 
 ._questcard_header {
   padding: 24px;
@@ -22,23 +22,6 @@
   background: rgba(255, 255, 255, 0.15);
 }
 
-._collapsed {
-  transform: rotate(180deg);
-}
-
-._collapse_action {
-  position: absolute;
-  top: 8px;
-  right: 12px;
-  padding: 8px;
-  color: #fff3;
-  font-size: 20px;
-  transition: transform .2s ease;
-}
-
-._collapsed {
-  transform: rotate(180deg);
-}
 ._collapse_action {
   position: absolute;
   top: 8px;
@@ -47,6 +30,10 @@
   color: #fff3;
   font-size: 20px;
   transition: transform 0.2s ease;
+}
+
+._collapsed {
+  transform: rotate(180deg);
 }
 
 ._questcard_header_image {
@@ -162,10 +149,16 @@
   }
 }
 
-
 @media screen and (max-width: 390px) {
   ._questcard_container {
     scale: 0.9;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  ._questcard_header_image {
+    flex: 0 0 140px;
+    height: 140px;
   }
 }
 
