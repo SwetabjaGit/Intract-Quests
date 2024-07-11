@@ -38,7 +38,6 @@
 
 
 
-
 ._timeline_section_3_conatiner {
   margin-top: 60px;
   display: flex;
@@ -90,7 +89,6 @@
 
 
 
-
 ._questcard_container {
   width: 520px;
   background: rgba(255, 255, 255, .05);
@@ -115,4 +113,10 @@
   border-bottom-left-radius: 24px;
   border-bottom-right-radius: 24px;
   /* width: 100%; */
+}
+
+@media screen and (max-width: 700px) {
+  ._questcard_body {
+    position: relative;
+  }
 }
