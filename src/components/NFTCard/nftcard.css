@@ -3,6 +3,7 @@
   width: 100%;
   justify-content: flex-end;
   position: relative;
+  z-index: -1;
 }
 
 ._timeline_nft_tick_icon {
